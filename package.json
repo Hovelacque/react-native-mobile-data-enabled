@@ -1,0 +1,38 @@
+{
+  "name": "react-native-mobile-data-enabled",
+  "version": "0.0.1",
+  "description": "A React Native package that checks if mobile data is enabled",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/Hovelacque/react-native-mobile-data-enabled",
+  "author": "Gustavo Geissler <gustavo@kapibara.com.br> (https://github.com/Hovelacque)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hovelacque/react-native-mobile-data-enabled/issues"
+  },
+  "homepage": "https://github.com/Hovelacque/react-native-mobile-data-enabled#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RNMobileDataEnabledSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rnmobiledataenabled"
+    }
+  }
+}
